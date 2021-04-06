@@ -48,21 +48,21 @@ class Profile extends Component {
                                 <div className="form-group">
                                     <label htmlFor="email" className="control-label col-sm-2 font-weight-bold ">Email</label>
                                     <div className="col-sm-4">
-                                        <input type="text" id="email" className="form-control" placeholder="email" name="email" value="sumon@gmail.com" onChange={this.handleChange} />
+                                        <input type="text" id="email" className="form-control" placeholder="email" name="email"  value="sumon@gmail.com" onChange={this.handleChange} />
                                     </div>
                                 </div>
                                 <br />
                                 <div className="form-group">
                                     <label htmlFor="contact_address" className="control-label col-sm-2 font-weight-bold ">Contact Address</label>
                                     <div className="col-sm-4">
-                                        <input type="text" id="contact_address" className="form-control" placeholder="Enter Contact Address" value="Uttor badda,Dhaka" name="contact_address" onChange={this.handleChange} />
+                                        <input type="text" id="contact_address" className="form-control" placeholder="Enter Contact Address"  value="Uttor badda,Dhaka" name="contact_address" onChange={this.handleChange} />
                                     </div>
                                 </div>
                                 <br />
                                 <div className="form-group">
                                     <label htmlFor="phone_number" className="control-label col-sm-2 font-weight-bold ">Phone Number</label>
                                     <div className="col-sm-4">
-                                        <input type="text" id="phone_number" className="form-control" placeholder="Enter Phone Number" name="phone_number" value="01812335678" onChange={this.handleChange} />
+                                        <input type="text" id="phone_number" className="form-control" placeholder="Enter Phone Number" name="phone_number"  value="01812335678" onChange={this.handleChange} />
                                     </div>
                                 </div>
                                 <br />
@@ -72,7 +72,7 @@ class Profile extends Component {
                                     <p className="font-weight-bold">Gender?</p>
 
                                     <div className="radio">
-                                        <label ><input type="radio" id="gender" name="gender" value="1" onChange={this.handleChange} selected />Femail</label>
+                                        <label ><input type="radio" id="gender" name="gender" value="1" onChange={this.handleChange} selected/>Femail</label>
                                     </div>
                                     <div className="radio">
                                         <label><input type="radio" id="gender" name="gender" value="0" onChange={this.handleChange} />Male</label>
@@ -82,8 +82,12 @@ class Profile extends Component {
 
 
                                     <br />
+                                    <div className="col-sm-4">
+                                    <br />
 
-
+                                    <button type="submit" className="btn btn-primary">Edit</button>
+                                </div>
+                                  
                                 </div>
                             </form>
                         </div>
@@ -102,21 +106,25 @@ class Profile extends Component {
                                 <div className="form-group two-col">
                                     <label htmlFor="acedamicQualification" className="control-label col-sm-2 font-weight-bold "><span>Last Acedamic Qualification</span></label>
                                     <div className="col-sm-4">
-                                        <input type="text" id="acedamicQualification" className="form-control" placeholder="acedamicQualification" value="Msc" name="acedamicQualification" onChange={this.handleChange} />
+                                        <input type="text" id="acedamicQualification" className="form-control" placeholder="acedamicQualification"  value="Msc" name="acedamicQualification" onChange={this.handleChange} />
                                     </div>
                                 </div>
                                 <br />
                                 <div className="form-group">
                                     <label htmlFor="passingYear" className="control-label col-sm-2 font-weight-bold ">Last Passing year</label>
                                     <div className="col-sm-4">
-                                        <input type="text" id="passingYear" className="form-control" placeholder="passingYear" name="passingYear" value="2013" onChange={this.handleChange} />
+                                        <input type="text" id="passingYear" className="form-control" placeholder="passingYear" name="passingYear"  value="2013" onChange={this.handleChange} />
                                     </div>
                                 </div>
                                 <br />
 
 
                                 <br />
+                                <div className="col-sm-4">
+                                    <br />
 
+                                    <button type="submit" className="btn btn-primary">Edit</button>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -134,7 +142,7 @@ class Profile extends Component {
                                 <div className="form-group two-col">
                                     <label htmlFor="experience" className="control-label col-sm-2 font-weight-bold "><span>Year Of working experience</span></label>
                                     <div className="col-sm-4">
-                                        <input type="text" id="experience" className="form-control" placeholder="experience" name="experience" value="6" onChange={this.handleChange} />
+                                        <input type="text" id="experience" className="form-control" placeholder="experience" name="experience"  value="6" onChange={this.handleChange} />
                                     </div>
                                 </div>
                                 <br />
@@ -142,7 +150,11 @@ class Profile extends Component {
 
 
                                 <br />
+                                <div className="col-sm-4">
+                                    <br />
 
+                                    <button type="submit" className="btn btn-primary">Edit</button>
+                                </div>
                             </form>
                         </div>
                     </div>
